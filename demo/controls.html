@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <script type="module" src="../components/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      font-family: 'PT Sans', sans-serif;
+    }
+
+    html, body {
+      margin: 0;
+    }
+  </style>
 </head>
 <body>
   <h1>Buttons</h1>
@@ -18,6 +28,16 @@
   <s-button disabled primary>Demo Button</s-button>
   <s-button disabled warning>Demo Button</s-button>
   <s-button disabled success>Demo Button</s-button>
+
+  <h1>Navigation Bar</h1>
+  <s-navbar>
+    <s-menu-item>Item 1</s-menu-item>
+    <s-menu-item>Item 2</s-menu-item>
+    <s-menu-item disabled>Disabled 3</s-menu-item>
+    <s-menu-item disabled>Disabled 4</s-menu-item>
+    <s-menu-item>Item 5</s-menu-item>
+  </s-navbar>
+
   <h1>Menu</h1>
   <s-menu>
     <s-menu-group>
